@@ -1,8 +1,8 @@
 import VueRouter from "vue-router"  
-import Reason from './components/Reason'
-import Items from './components/Items'
-import Image from './components/Image'
-import MoreImages from './components/MoreImages'
+import Reason from './pages/Reason'
+import Items from './pages/Items'
+import Image from './pages/Image'
+import MoreImages from './pages/MoreImages'
 
   
 export default new VueRouter({

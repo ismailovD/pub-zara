@@ -1,5 +1,6 @@
 <template>
     <div>
+      
         <h1 class="title"> {{title}}</h1>
 
         <div class="container mb-4"> 
@@ -17,7 +18,7 @@
         <div class="buttons">
             <router-link to="/items" class="btns">Back</router-link>
             <router-link to="/more" class="btns">Continue</router-link>
-        </div>
+        </div> 
     </div>
 </template>
 

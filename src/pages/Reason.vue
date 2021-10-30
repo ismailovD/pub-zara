@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="title">{{title}}</h1>
+       <h1 class="title">{{title}}</h1>
             <form class="checks">
             <div class="container">
                 <div class="row mb-4">
@@ -37,8 +37,8 @@
 
          <div class="buttons">
             <router-link to="/" class="btns">Back</router-link>
-            <router-link to="/items" class="btns">Continue</router-link>
-        </div>
+            <router-link to="./items" class="btns">Continue</router-link>
+        </div> 
     </div>
 
 
