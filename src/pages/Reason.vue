@@ -72,6 +72,15 @@ export default {
 
 
 <style scoped>
+.images {
+      width: 100%;
+  }
+
+  .main {
+    background: #f2f1ff;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  } 
    .title {  
         color: #473e9e;
         font-size: 48px  ;
