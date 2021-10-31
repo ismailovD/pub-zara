@@ -23,5 +23,6 @@ export default new VueRouter({
             path: '/more',
             component: MoreImages
         }
-    ]  
+    ],
+    mode: 'history' 
 })
