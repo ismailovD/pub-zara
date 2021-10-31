@@ -65,7 +65,7 @@
                     <div class="card" @click="choose4 = !choose4" :class="{active : choose4}">
                         <span v-show="choose4" class="card__check"><img src="../assets/check.png" alt=""></span>
                         <div class="card__pic">
-                        <img src="../assets/3.png" alt="3">
+                        <img src="../assets/4.png" alt="4">
                         </div>
                         <div class="card__info">
                             <h2 class="card__title">Classic fit plaid oxford shirt</h2>
