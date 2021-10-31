@@ -99,6 +99,7 @@ export default {
         flex-direction: column;
         align-items: center;
         border-radius: 4px;
+        cursor: pointer;
     }
 
     .photo__img {
