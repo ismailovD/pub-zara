@@ -1,5 +1,8 @@
 <template>
-    <div>
+  <div>
+    <img class="images" src="../assets/header.png" alt="header"> 
+    <main class="main"> 
+      <div class="container"> 
        <h1 class="title">{{title}}</h1>
             <form class="checks">
             <div class="container">
@@ -36,17 +39,17 @@
 
 
          <div class="buttons">
-            <router-link to="/" class="btns">Back</router-link>
+            <router-link to="./more" class="btns">Back</router-link>
             <router-link to="./items" class="btns">Continue</router-link>
         </div> 
-    </div>
-
-
-
-
-
-   
-</template>
+        </div>
+      
+    </main>
+    <img class="images" src="../assets/footer.png" alt="footer"> 
+    
+  </div>
+  
+</template> 
 
 <script>
 export default { 

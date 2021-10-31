@@ -1,6 +1,8 @@
 <template>
-    <div>
-      
+  <div>
+    <img class="images" src="../assets/header.png" alt="header"> 
+    <main class="main"> 
+      <div class="container">  
         <h1 class="title"> {{title}}</h1>
 
         <div class="container mb-4"> 
@@ -19,7 +21,13 @@
             <router-link to="/items" class="btns">Back</router-link>
             <router-link to="/more" class="btns">Continue</router-link>
         </div> 
-    </div>
+      </div>
+      
+    </main>
+    <img class="images" src="../assets/footer.png" alt="footer"> 
+    
+  </div>
+  
 </template>
 
 <script>
@@ -35,6 +43,15 @@ export default {
 
 
 <style scoped>
+.images {
+      width: 100%;
+  }
+
+  .main {
+    background: #f2f1ff;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  } 
     .title {  
         color: #473e9e;
         font-size: 48px  ;
